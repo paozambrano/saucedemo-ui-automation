@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from .base_page import BasePage
 
 class ProductsPage (BasePage):
-    product_title = (By.ID, 'inventory_item_name')
+    product_title = (By.ID, 'item_4_title_link')
     add_to_cart_button = (By.ID, 'add-to-cart-sauce-labs-backpack')
 
     def getProductTitle(self):
