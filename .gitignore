@@ -1,0 +1,18 @@
+# .gitignore
+
+# Entorno Virtual Python
+venv/
+.env
+
+# Archivos de caché
+__pycache__/
+*.pyc
+
+# Ignorar archivos del OS/IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Reportes y logs
+reports/
+logs/
